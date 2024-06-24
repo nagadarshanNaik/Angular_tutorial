@@ -1,0 +1,20 @@
+<p>structural-component works!</p>
+
+<div class="main">
+  <div class="d-flex pad-l-r-30">
+    <p>This is example for *ngIf</p>
+    <p  class="plus" (click)="onExtent()">+</p>
+  </div>
+  <div>
+    <button (click)="onSubscribe()">Subscribe</button>
+  </div>
+
+  <div  *appIf="display">
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, distinctio
+      nisi neque fugiat architecto veritatis totam eius officiis id odio
+      laudantium laboriosam consequuntur nam itaque ad iure ea perferendis
+      accusamus.
+    </p>
+  </div>
+</div>
